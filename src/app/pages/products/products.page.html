@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar style="--background:{{bgcolor}}">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>
+     {{productType}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<app-product-details [item] = "productDetailsList"></app-product-details>
+</ion-content>
